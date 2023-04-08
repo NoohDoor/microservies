@@ -83,32 +83,32 @@ Derzeit vorhanden:
 POST /users: Erstellen eines neuen Benutzers.
 POST /token: Erstellt einen Token für aktuellen Benutzer. ( Bitte E-Mail als Username angeben ).
 GET /users: Auflisten aller Benutzer.
-GET /users/:id: Abrufen der Informationen eines bestimmten Benutzers.
-PUT /users/:id: Aktualisieren der Informationen eines bestimmten Benutzers.
-DELETE /users/:id: Löschen eines bestimmten Benutzers.
+GET /users/id: Abrufen der Informationen eines bestimmten Benutzers.
+PUT /users/id: Aktualisieren der Informationen eines bestimmten Benutzers.
+DELETE /users/id: Löschen eines bestimmten Benutzers.
 
 - Aufgaben-Service
 POST /tasks: Erstellen einer neuen Aufgabe. ( Zu beachten ist die Formattierung für due_Date ( 'YYYY-MM-DDTHH:MM:SS' ).
 GET /tasks: Auflisten aller Aufgaben.
-GET /tasks/:id: Abrufen der Informationen einer bestimmten Aufgabe.
-PUT /tasks/:id: Aktualisieren der Informationen einer bestimmten Aufgabe.
-DELETE /tasks/:id: Löschen einer bestimmten Aufgabe.
+GET /tasks/id: Abrufen der Informationen einer bestimmten Aufgabe.
+PUT /tasks/id: Aktualisieren der Informationen einer bestimmten Aufgabe.
+DELETE /tasks/id: Löschen einer bestimmten Aufgabe.
 
 Geplante Service:
 
 - Projekt-Service
 POST /projects: Erstellen eines neuen Projekts.
 GET /projects: Auflisten aller Projekte.
-GET /projects/:id: Abrufen der Informationen eines bestimmten Projekts.
-PUT /projects/:id: Aktualisieren der Informationen eines bestimmten Projekts.
-DELETE /projects/:id: Löschen eines bestimmten Projekts.
+GET /projects/id: Abrufen der Informationen eines bestimmten Projekts.
+PUT /projects/id: Aktualisieren der Informationen eines bestimmten Projekts.
+DELETE /projects/id: Löschen eines bestimmten Projekts.
 
 - Benachrichtigungs-Service
 POST /notifications: Erstellen einer neuen Benachrichtigung.
 GET /notifications: Auflisten aller Benachrichtigungen.
-GET /notifications/:id: Abrufen der Informationen einer bestimmten Benachrichtigung.
-PUT /notifications/:id: Aktualisieren der Informationen einer bestimmten Benachrichtigung.
-DELETE /notifications/:id: Löschen einer bestimmten Benachrichtigung.
+GET /notifications/id: Abrufen der Informationen einer bestimmten Benachrichtigung.
+PUT /notifications/id: Aktualisieren der Informationen einer bestimmten Benachrichtigung.
+DELETE /notifications/id: Löschen einer bestimmten Benachrichtigung.
 
 - Such-Service
 GET /search/users?q=<query>: Suchen von Benutzern basierend auf dem angegebenen Suchbegriff.
