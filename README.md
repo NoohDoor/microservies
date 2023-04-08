@@ -77,40 +77,45 @@ Ein Umgebung haben welche die Libs aus der requirements-Datei beinhaltet.
 
 Die API-Endpunkte für die verschiedenen Microservices sind wie folgt:
 
-Derzeit vorhanden:
+### Derzeit vorhanden:
 
-- Benutzer-Service
-POST /users: Erstellen eines neuen Benutzers.
-POST /token: Erstellt einen Token für aktuellen Benutzer. ( Bitte E-Mail als Username angeben ).
-GET /users: Auflisten aller Benutzer.
-GET /users/id: Abrufen der Informationen eines bestimmten Benutzers.
-PUT /users/id: Aktualisieren der Informationen eines bestimmten Benutzers.
-DELETE /users/id: Löschen eines bestimmten Benutzers.
+- Benutzer-Service:
 
-- Aufgaben-Service
-POST /tasks: Erstellen einer neuen Aufgabe. ( Zu beachten ist die Formattierung für due_Date ( 'YYYY-MM-DDTHH:MM:SS' ).
-GET /tasks: Auflisten aller Aufgaben.
-GET /tasks/id: Abrufen der Informationen einer bestimmten Aufgabe.
-PUT /tasks/id: Aktualisieren der Informationen einer bestimmten Aufgabe.
-DELETE /tasks/id: Löschen einer bestimmten Aufgabe.
+- POST /users: Erstellen eines neuen Benutzers.
+- POST /token: Erstellt einen Token für aktuellen Benutzer. ( Bitte E-Mail als Username angeben ).
+- GET /users: Auflisten aller Benutzer.
+- GET /users/id: Abrufen der Informationen eines bestimmten Benutzers.
+- PUT /users/id: Aktualisieren der Informationen eines bestimmten Benutzers.
+- DELETE /users/id: Löschen eines bestimmten Benutzers.
 
-Geplante Service:
+- Aufgaben-Service:
 
-- Projekt-Service
-POST /projects: Erstellen eines neuen Projekts.
-GET /projects: Auflisten aller Projekte.
-GET /projects/id: Abrufen der Informationen eines bestimmten Projekts.
-PUT /projects/id: Aktualisieren der Informationen eines bestimmten Projekts.
-DELETE /projects/id: Löschen eines bestimmten Projekts.
+- POST /tasks: Erstellen einer neuen Aufgabe. ( Zu beachten ist die Formattierung für due_Date ( 'YYYY-MM-DDTHH:MM:SS' ).
+- GET /tasks: Auflisten aller Aufgaben.
+- GET /tasks/id: Abrufen der Informationen einer bestimmten Aufgabe.
+- PUT /tasks/id: Aktualisieren der Informationen einer bestimmten Aufgabe.
+- DELETE /tasks/id: Löschen einer bestimmten Aufgabe.
 
-- Benachrichtigungs-Service
-POST /notifications: Erstellen einer neuen Benachrichtigung.
-GET /notifications: Auflisten aller Benachrichtigungen.
-GET /notifications/id: Abrufen der Informationen einer bestimmten Benachrichtigung.
-PUT /notifications/id: Aktualisieren der Informationen einer bestimmten Benachrichtigung.
-DELETE /notifications/id: Löschen einer bestimmten Benachrichtigung.
+### Geplante Service:
 
-- Such-Service
-GET /search/users?q=<query>: Suchen von Benutzern basierend auf dem angegebenen Suchbegriff.
-GET /search/projects?q=<query>: Suchen von Projekten basierend auf dem angegebenen Suchbegriff.
-GET /search/tasks?q=<query>: Suchen von Aufgaben basierend auf dem angegebenen Suchbegriff.
+- Projekt-Service:
+
+- POST /projects: Erstellen eines neuen Projekts.
+- GET /projects: Auflisten aller Projekte.
+- GET /projects/id: Abrufen der Informationen eines bestimmten Projekts.
+- PUT /projects/id: Aktualisieren der Informationen eines bestimmten Projekts.
+- DELETE /projects/id: Löschen eines bestimmten Projekts.
+
+- Benachrichtigungs-Service:
+
+- POST /notifications: Erstellen einer neuen Benachrichtigung.
+- GET /notifications: Auflisten aller Benachrichtigungen.
+- GET /notifications/id: Abrufen der Informationen einer bestimmten Benachrichtigung.
+- PUT /notifications/id: Aktualisieren der Informationen einer bestimmten Benachrichtigung.
+- DELETE /notifications/id: Löschen einer bestimmten Benachrichtigung.
+
+- Such-Service:
+
+- GET /search/users?q=<query>: Suchen von Benutzern basierend auf dem angegebenen Suchbegriff.
+- GET /search/projects?q=<query>: Suchen von Projekten basierend auf dem angegebenen Suchbegriff.
+- GET /search/tasks?q=<query>: Suchen von Aufgaben basierend auf dem angegebenen Suchbegriff.
