@@ -65,7 +65,8 @@ Um die Anwendung zu installieren und zu nutzen, befolgen Sie die folgenden Schri
 
 ### Voraussetzungen
 
-Ein Umgebung haben welche die Libs aus der requirements-Datei beinhaltet.
+Ein Umgebung haben welche die Libs aus der requirements-Datei beinhaltet. 
+Installieren mithilfe von: pip install -r requirements.txt
 
 ### Schritte zur Installation
 
